@@ -1,0 +1,59 @@
+//Homepage Mobile Version
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 var(--bs-navbar-toggler-focus-width) #87b740;
+}
+
+.fa-bars {
+    width: 23px;
+    height: 18.36;
+    color: #87b740;
+}
+
+#logo,
+#navbarContent {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #87b740;
+    line-height: 22px;
+    letter-spacing: 0%;
+}
+
+#logo {
+    span {
+        color: #f1632d;
+    }
+}
+
+.navbar {
+    height: 82px;
+
+    #navbarContent {
+        --bs-gutter-x: 60px;
+        font-size: 16px;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 32px;
+        letter-spacing: 0%;
+    }
+
+    #navbarText {
+        background-color: #ffffff;
+        border-radius: 10px;
+        padding: 1rem;
+    }
+}
+
+.bg-body-tertiary {
+    background-color: #ffffff !important;
+}
+
+body {
+    background-color: #f6f6f6;
+}
