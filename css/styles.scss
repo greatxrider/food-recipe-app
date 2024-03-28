@@ -15,7 +15,7 @@
 }
 
 #logo,
-#navbarContent {
+#navbarContent, #headerContent {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -57,3 +57,48 @@
 body {
     background-color: #f6f6f6;
 }
+
+#headerContent {
+    padding: 0px;
+    background-color: #E2E2E2;
+    
+    #bannerContainer {
+        padding: 33px 47px 0 47px;
+        height: 100%;
+        text-align: center;
+        align-items: center;
+
+        #headerTitle {
+            font-weight: bold;
+            font-size: 32px;
+            line-height: 133.1%;
+            letter-spacing: 0%;
+            color: #000000;
+            margin-bottom: 5px;
+        }
+
+        span {
+            color: #FFFFFF;
+            background-color: #f1632d;
+            padding: 0 10px 0 10px;
+        }
+    
+        p {
+            padding: 5px 15px 0 15px;
+            color: #000000;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 166.4%;
+            margin-bottom: 0;
+        }
+    }
+}
+
+#carouselContainer {
+    padding: 0px;
+}
+
+// Carousel
+@import 'styles-mobile.scss';
+@import 'carousel';
+@import 'carousel-mobile.scss';

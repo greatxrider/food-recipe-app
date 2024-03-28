@@ -13,7 +13,7 @@
 }
 
 #logo,
-#navbarContent {
+#navbarContent, #headerContent {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -50,6 +50,351 @@
 
 body {
   background-color: #f6f6f6;
+}
+
+#headerContent {
+  padding: 0px;
+  background-color: #E2E2E2;
+}
+#headerContent #bannerContainer {
+  padding: 33px 47px 0 47px;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+}
+#headerContent #bannerContainer #headerTitle {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 133.1%;
+  letter-spacing: 0%;
+  color: #000000;
+  margin-bottom: 5px;
+}
+#headerContent #bannerContainer span {
+  color: #FFFFFF;
+  background-color: #f1632d;
+  padding: 0 10px 0 10px;
+}
+#headerContent #bannerContainer p {
+  padding: 5px 15px 0 15px;
+  color: #000000;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 166.4%;
+  margin-bottom: 0;
+}
+
+#carouselContainer {
+  padding: 0px;
+}
+
+@media only screen and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
+  #headerContent {
+    height: 315px;
+    position: relative;
+  }
+  #mainSection {
+    margin-top: 240px;
+  }
+  #searchInput {
+    border: 0px;
+    background-color: #FFFFFF;
+    width: 193px;
+  }
+  #searchFormContainer {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: #FFFFFF;
+    border-radius: 2px;
+  }
+}
+/* page styles */
+.ax-hidden {
+  visibility: hidden;
+  position: absolute;
+}
+
+/* carousel styles */
+.carousel-custom {
+  --carousel-height: 400px;
+  --carousel-width: 1000px;
+  --carousel-item-height: 150px;
+  --carousel-item-width: 150px;
+  width: 100%;
+}
+
+.carousel-custom-container {
+  align-items: center;
+  display: flex;
+  min-height: var(--carousel-height);
+  margin: 0 auto;
+  max-width: var(--carousel-width);
+  position: relative;
+}
+
+@media only screen and (min-width: 991px) {
+  .carousel-custom-item {
+    height: var(--carousel-item-height);
+    opacity: 0;
+    position: absolute;
+    transform: translateX(-50%);
+    transition: all 0.3s ease-in-out;
+    width: var(--carousel-item-width);
+    z-index: 0;
+  }
+  .carousel-custom-item-1 {
+    left: 15%;
+    opacity: 0.4;
+  }
+  .carousel-custom-item-2,
+  .carousel-custom-item-4 {
+    height: calc(var(--carousel-item-height) * 1.5);
+    opacity: 1;
+    width: calc(var(--carousel-item-width) * 1.5);
+    z-index: 1;
+  }
+  .carousel-custom-item-2 {
+    left: 30%;
+  }
+  .carousel-custom-item-3 {
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.6), 0 0 60px rgba(255, 255, 255, 0.45), 0 0 110px rgba(255, 255, 255, 0.25), 0 0 100px rgba(255, 255, 255, 0.1);
+    height: calc(var(--carousel-item-height) * 2);
+    opacity: 1;
+    left: 50%;
+    width: calc(var(--carousel-item-width) * 2);
+    z-index: 2;
+  }
+  .carousel-custom-item-4 {
+    left: 70%;
+  }
+  .carousel-custom-item-5 {
+    left: 85%;
+    opacity: 0.4;
+  }
+}
+.carousel-custom-controls {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 10;
+}
+
+/* carousel button styles */
+.carousel-custom-control {
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 4px;
+  color: #aaa;
+  cursor: pointer;
+  height: 22px;
+  margin: 0 20px;
+  position: relative;
+  transform: scale(1.5);
+  transition: transform 0.5s ease-out;
+  width: 22px;
+}
+
+.carousel-custom-control:hover {
+  transform: scale(1.3);
+}
+
+/* previous button */
+.carousel-custom-control-previous::after,
+.carousel-custom-control-previous::before {
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  height: 8px;
+  position: absolute;
+  top: 5px;
+}
+
+.carousel-custom-control-previous::before {
+  background: currentColor;
+  border-radius: 2px;
+  right: 11px;
+  width: 2px;
+}
+
+.carousel-custom-control-previous::after {
+  border-bottom: 4px solid transparent;
+  border-right: 5px solid;
+  border-top: 4px solid transparent;
+  right: 5px;
+  width: 0;
+}
+
+/* next button */
+.carousel-custom-control-next::after,
+.carousel-custom-control-next::before {
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  height: 8px;
+  position: absolute;
+  top: 5px;
+}
+
+.carousel-custom-control-next::before {
+  background: currentColor;
+  border-radius: 2px;
+  left: 11px;
+  width: 2px;
+}
+
+.carousel-custom-control-next::after {
+  border-bottom: 4px solid transparent;
+  border-left: 5px solid;
+  border-top: 4px solid transparent;
+  left: 5px;
+  width: 0;
+}
+
+/* play button */
+.carousel-custom-control-play::before {
+  border-bottom: 5px solid transparent;
+  border-left: 6px solid;
+  border-top: 5px solid transparent;
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  height: 10px;
+  position: absolute;
+  left: 7px;
+  top: 4px;
+  width: 0;
+}
+
+/* pause button */
+.carousel-custom-control-play.playing::before {
+  border-bottom: 0;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  border-top: 0;
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  height: 6px;
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  width: 6px;
+}
+
+/* add button */
+.carousel-custom-control-add::after,
+.carousel-custom-control-add::before {
+  background: currentColor;
+  border-radius: 5px;
+  box-sizing: border-box;
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  left: 4px;
+  top: 8px;
+  width: 10px;
+}
+
+.carousel-custom-control-add::after {
+  height: 10px;
+  left: 8px;
+  top: 4px;
+  width: 2px;
+}
+
+@media only screen and (max-width: 991px) {
+  .carousel-custom-container {
+    align-items: center;
+    display: flex;
+    min-height: 280px;
+    margin: 0 auto;
+    max-width: var(--carousel-width);
+    position: relative;
+    overflow-x: hidden;
+  }
+  .carousel-custom-item {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    gap: 12px;
+    justify-content: flex-start;
+    border-radius: 9px;
+    background-color: #ffffff;
+  }
+  .carousel-custom-item {
+    height: var(--carousel-item-height);
+    position: absolute;
+    transform: translateX(-50%);
+    transition: all 0.5s ease-in-out;
+    z-index: 0;
+  }
+  .carousel-custom {
+    position: absolute;
+    top: 70%;
+    z-index: 1; /* Ensure the carousel is on top of other content */
+  }
+  .imageItem {
+    height: 208px;
+    width: 182px;
+  }
+  .carousel-custom-item-1 {
+    left: 0%;
+    opacity: 0.4;
+  }
+  .carousel-custom-item-1, .carousel-custom-item-5 {
+    height: 250px;
+    width: 200px;
+    top: 10.5%;
+  }
+  .carousel-custom-item-2,
+  .carousel-custom-item-4 {
+    opacity: 1;
+    height: 250px;
+    width: 200px;
+    z-index: 1;
+    top: 10.5%;
+  }
+  .carousel-custom-item-2 {
+    left: 2%;
+  }
+  .carousel-custom-item-3 {
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.3);
+    height: 280px;
+    opacity: 1;
+    left: 50%;
+    width: 200px;
+    z-index: 2;
+    align-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .carousel-custom-item-4 {
+    left: 98%;
+  }
+  .carousel-custom-item-5 {
+    left: 100%;
+    opacity: 0.4;
+  }
+  .imageItem {
+    border-radius: 8px;
+    height: 208px;
+  }
+  .foodTitle-item {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+    color: black;
+    line-height: 16px;
+    letter-spacing: 0%;
+    margin: 0;
+  }
+  .foodTitle-custom-item-1 {
+    align-self: center;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

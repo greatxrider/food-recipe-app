@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/carousel.css">
 </head>
 
 <body>
@@ -51,19 +50,39 @@
     </nav>
     <!-- header -->
     <header>
-        <div class="container">
-            <h1 id="headerTitle">Everyone can <span>Cook.</span></h1>
-            <p>Simple ingredients prepared in a simple way - that's the best way to take your everyday cooking to a
-                higher level.</p>
-            <!-- carousel -->
-            <div class="carousel-custom"></div>
+        <div class="container" id="headerContent">
+            <div id="bannerContainer">
+                <h1 id="headerTitle">Everyone can <span>Cook.</span></h1>
+                <p>Simple ingredients prepared in a simple way - that's the best way to take your everyday cooking to a
+                    higher level.</p>
+            </div>
+            <div class="carousel-custom container position-absolute" id="carouselContainer"></div>
         </div>
     </header>
     <!-- main content -->
-    <main class="container">
+    <main class="container" id="mainSection">
         <!-- search bar -->
         <section id="searchBar">
-
+            <div id="searchFormContainer">
+                <form class="d-flex" role="search">
+                    <div class="nav-item dropdown d-flex align-items-center">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            All Categories
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <input class="form-control me-2" id="searchInput" type="search" placeholder="Search"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </form>
+            </div>
         </section>
         <!-- top recipes section -->
         <section id="topRecipes">

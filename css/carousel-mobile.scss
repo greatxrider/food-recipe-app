@@ -1,0 +1,106 @@
+@media only screen and (max-width: 991px) {
+  .carousel-custom-container {
+    align-items: center;
+    display: flex;
+    min-height: 280px;
+    margin: 0 auto;
+    max-width: var(--carousel-width);
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  .carousel-custom-item {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    gap: 12px;
+    justify-content: flex-start;
+    border-radius: 9px;
+    background-color: #ffffff;
+  }
+
+  .carousel-custom-item {
+    height: var(--carousel-item-height);
+    position: absolute;
+    transform: translateX(-50%);
+    transition: all 0.5s ease-in-out;
+    z-index: 0;
+  }
+
+  .carousel-custom {
+    position: absolute;
+    top: 70%;
+    z-index: 1; /* Ensure the carousel is on top of other content */
+  }
+
+  .imageItem {
+    height: 208px;
+    width: 182px;
+  }
+
+  .carousel-custom-item-1 {
+    left: 0%;
+    opacity: 0.4;
+    
+  }
+
+  .carousel-custom-item-1,  .carousel-custom-item-5 {
+    height: 250px;
+    width: 200px;
+    top: 10.5%;
+  }
+
+  .carousel-custom-item-2,
+  .carousel-custom-item-4 {
+    opacity: 1;
+    height: 250px;
+    width: 200px;
+    z-index: 1;
+    top: 10.5%;
+  }
+
+  .carousel-custom-item-2 {
+    left: 2%;
+  }
+
+  .carousel-custom-item-3 {
+    box-shadow: 0 20px 50px 0 rgba(0, 0, 0, 0.3);
+    height: 280px;
+    opacity: 1;
+    left: 50%;
+    width: 200px;
+    z-index: 2;
+    align-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .carousel-custom-item-4 {
+    left: 98%;
+  }
+
+  .carousel-custom-item-5 {
+    left: 100%;
+    opacity: 0.4;
+  }
+
+  .imageItem {
+    border-radius: 8px;
+    height: 208px;
+  }
+
+  .foodTitle-item {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+    color: black;
+    line-height: 16px;
+    letter-spacing: 0%;
+    margin: 0;
+  }
+
+  .foodTitle-custom-item-1 {
+    align-self: center;
+  }
+}

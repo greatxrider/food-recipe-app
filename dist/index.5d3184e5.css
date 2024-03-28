@@ -14,7 +14,7 @@
 .carousel-container-custom {
   min-height: var(--carousel-height);
   max-width: var(--carousel-width);
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: 0 auto;
   display: flex;
