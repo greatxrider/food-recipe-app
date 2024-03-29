@@ -782,6 +782,9 @@ const arrowRight = document.querySelector("#arrowRight");
 const arrowLeft = document.querySelector("#arrowLeft");
 const startingIndex = document.querySelector("#startingIndex");
 const endPageNumber = document.querySelector("#endPageNumber");
+const searchButton = document.querySelector(".btn-outline-success");
+const searchInput = document.querySelector("#searchInput");
+const spinner = document.querySelector("#spinner");
 //api key
 const apiKey = "7cda474b20f147df88911df91cc05de4";
 // top recipes
@@ -789,6 +792,7 @@ let topRecipesUrl = `https://api.spoonacular.com/food/search?query=top+recipes&n
 // latest recipes
 // let latestRecipesUrl = `https://api.spoonacular.com/food/search?query=latest+recipes&apiKey=${apiKey}`;
 selectElement.addEventListener("change", ()=>{
+    spinner.style.display = "block";
     count = 1;
     startIndex = 0;
     deleteCount = 10;
@@ -802,6 +806,7 @@ selectElement.addEventListener("change", ()=>{
     fetchRecipes(topRecipesUrl);
 });
 document.addEventListener("DOMContentLoaded", ()=>{
+    spinner.style.display = "block";
     fetchRecipes(topRecipesUrl);
 });
 arrowLeft.addEventListener("click", ()=>{
@@ -810,6 +815,7 @@ arrowLeft.addEventListener("click", ()=>{
         startIndex -= 10;
         deleteCount -= 10;
         count--;
+        spinner.style.display = "block";
         displayTopRecipe(recipeArrayList);
     } else {
         arrowLeft.style.color = "#CCCCCC";
@@ -825,12 +831,26 @@ arrowRight.addEventListener("click", ()=>{
         startIndex += 10;
         deleteCount += 10;
         count++;
+        spinner.style.display = "block";
         displayTopRecipe(recipeArrayList);
     } else {
         arrowRight.style.color = "#CCCCCC";
         console.log("Reached maximum delete count.");
         return;
     }
+});
+searchButton.addEventListener("click", ()=>{
+    spinner.style.display = "block";
+    count = 1;
+    startIndex = 0;
+    deleteCount = 10;
+    arrowLeft.style.color = "#CCCCCC";
+    arrowRight.style.color = "#F1632D";
+    let inputValue = searchInput.value;
+    topRecipesUrl = `https://api.spoonacular.com/food/search?query=${inputValue}&number=40&apiKey=${apiKey}`;
+    // latestRecipesUrl = `https://api.spoonacular.com/food/search?query=latest+recipes+${selectedText}&number=40&apiKey=${apiKey}`;
+    console.log(topRecipesUrl);
+    fetchRecipes(topRecipesUrl);
 });
 async function fetchRecipes(topRecipe) {
     try {
@@ -843,6 +863,7 @@ async function fetchRecipes(topRecipe) {
         // displayTopRecipe(topRecipesList.results);
         // displayLatestRecipe(latestRecipesList.results);
         recipeArrayList = tRecipesList.results;
+        spinner.style.display = "none";
         displayTopRecipe(tRecipesList.results);
     } catch (error) {
         console.error(error);
@@ -938,6 +959,7 @@ function displayTopRecipe(recipes) {
         shareButton.appendChild(shareIcon);
         cardBody.append(cardTitle, cardText, readMore);
     }
+    spinner.style.display = "none";
 }
 function displayLatestRecipe(recipes) {}
 
