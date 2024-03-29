@@ -584,36 +584,38 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"9AbnS":[function(require,module,exports) {
-"use strict";
 class Carousel {
-    constructor(el){
-        this.el = el;
+    constructor(element){
+        this.element = element;
         this.carouselOptions = [
             "previous",
-            "add",
-            "play",
             "next"
         ];
         this.carouselData = [
             {
                 "id": "1",
-                "src": "http://fakeimg.pl/300/?text=1"
+                "src": "https://randommer.io/images/foods/Caprese%20Salad.webp",
+                "title": "Italiano Strawberry Smoothies Pancake"
             },
             {
                 "id": "2",
-                "src": "http://fakeimg.pl/300/?text=2"
+                "src": "https://randommer.io/images/foods/Huevos%20Rancheros.webp",
+                "title": "Steak Beef With Padang Sauce"
             },
             {
                 "id": "3",
-                "src": "http://fakeimg.pl/300/?text=3"
+                "src": "https://randommer.io/images/foods/Chicken%20Tenders.webp",
+                "title": "Jollibee With Tinola Sauce"
             },
             {
                 "id": "4",
-                "src": "http://fakeimg.pl/300/?text=4"
+                "src": "https://randommer.io/images/foods/Bento%20Box.webp",
+                "title": "Inasal With Tinola Sauce"
             },
             {
                 "id": "5",
-                "src": "http://fakeimg.pl/300/?text=5"
+                "src": "https://randommer.io/images/foods/Veggie%20Sandwich.webp",
+                "title": "McDo With Tinola Sauce"
             }
         ];
         this.carouselInView = [
@@ -634,19 +636,31 @@ class Carousel {
         const container = document.createElement("div");
         const controls = document.createElement("div");
         // Add container for carousel items and controls
-        this.el.append(container, controls);
-        container.className = "carousel-container";
-        controls.className = "carousel-controls";
+        this.element.append(container, controls);
+        container.className = "carousel-custom-container";
+        controls.className = "carousel-custom-controls container";
         // Take dataset array and append items to container
         this.carouselData.forEach((item, index)=>{
-            const carouselItem = item.src ? document.createElement("img") : document.createElement("div");
+            const carouselItem = item.src ? document.createElement("div") : null;
+            const imgItem = document.createElement("img");
+            const foodTitle = item.title ? document.createElement("h4") : null;
+            carouselItem.append(imgItem, foodTitle);
             container.append(carouselItem);
             // Add item attributes
-            carouselItem.className = `carousel-item carousel-item-${index + 1}`;
-            carouselItem.src = item.src;
+            // imgDiv.className = `imgDiv`;
+            foodTitle.className = `foodTitle-item foodTitle-custom-item-${index + 1}`;
+            foodTitle.textContent = item.title;
+            foodTitle.setAttribute("loading", "lazy");
+            imgItem.className = `imageItem imageItem-custom-item-${index + 1}`;
+            imgItem.src = item.src;
+            carouselItem.className = `carousel-custom-item carousel-custom-item-${index + 1}`;
+            // carouselItem.style.backgroundImage = `url(${item.src})`;
+            // carouselItem.style.backgroundSize = 'cover';
+            // carouselItem.style.backgroundPosition = 'center';
             carouselItem.setAttribute("loading", "lazy");
             // Used to keep track of carousel items, infinite items possible in carousel however min 5 items required
             carouselItem.setAttribute("data-index", `${index + 1}`);
+            foodTitle.setAttribute("data-index", `${index + 1}`);
         });
         this.carouselOptions.forEach((option)=>{
             const btn = document.createElement("button");
@@ -656,7 +670,7 @@ class Carousel {
             axSpan.className = "ax-hidden";
             btn.append(axSpan);
             // Add button attributes
-            btn.className = `carousel-control carousel-control-${option}`;
+            btn.className = `carousel-custom-control carousel-custom-control-${option}`;
             btn.setAttribute("data-name", option);
             // Add carousel control options
             controls.append(btn);
@@ -667,6 +681,7 @@ class Carousel {
         ]);
         // Set container property
         this.carouselContainer = container;
+        container.append(controls);
     }
     setControls(controls) {
         controls.forEach((control)=>{
@@ -680,8 +695,6 @@ class Carousel {
     controlManager(control) {
         if (control === "previous") return this.previous();
         if (control === "next") return this.next();
-        if (control === "add") return this.add();
-        if (control === "play") return this.play();
         return;
     }
     previous() {
@@ -691,12 +704,12 @@ class Carousel {
         this.carouselInView.push(this.carouselInView.shift());
         // Update the css class for each carousel item in view
         this.carouselInView.forEach((item, index)=>{
-            this.carouselContainer.children[index].className = `carousel-item carousel-item-${item}`;
+            this.carouselContainer.children[index].className = `carousel-custom-item carousel-custom-item-${item}`;
         });
-        // Using the first 5 items in data array update content of carousel items in view
-        this.carouselData.slice(0, 5).forEach((data, index)=>{
-            document.querySelector(`.carousel-item-${index + 1}`).src = data.src;
-        });
+    // // Using the first 5 items in data array update content of carousel items in view
+    // this.carouselData.slice(0, 5).forEach((data, index) => {
+    //     document.querySelector(`.carousel-custom-item-${index + 1}`).src = data.src;
+    // });
     }
     next() {
         // Update order of items in data array to be shown in carousel
@@ -705,12 +718,12 @@ class Carousel {
         this.carouselInView.unshift(this.carouselInView.pop());
         // Update the css class for each carousel item in view
         this.carouselInView.forEach((item, index)=>{
-            this.carouselContainer.children[index].className = `carousel-item carousel-item-${item}`;
+            this.carouselContainer.children[index].className = `carousel-custom-item carousel-custom-item-${item}`;
         });
-        // Using the first 5 items in data array update content of carousel items in view
-        this.carouselData.slice(0, 5).forEach((data, index)=>{
-            document.querySelector(`.carousel-item-${index + 1}`).src = data.src;
-        });
+    // Using the first 5 items in data array update content of carousel items in view
+    // this.carouselData.slice(0, 5).forEach((data, index) => {
+    //     document.querySelector(`.carousel-custom-item-${index + 1}`).style.backgroundImage = `url(${data.src})`;
+    // });
     }
     add() {
         const newItem = {
@@ -730,7 +743,7 @@ class Carousel {
         this.next();
     }
     play() {
-        const playBtn = document.querySelector(".carousel-control-play");
+        const playBtn = document.querySelector(".carousel-custom-control-play");
         const startPlaying = ()=>this.next();
         if (playBtn.classList.contains("playing")) {
             // Remove class to return to play button state/appearance
@@ -749,9 +762,9 @@ class Carousel {
     }
 }
 // Refers to the carousel root element you want to target, use specific class selectors if using multiple carousels
-const el = document.querySelector(".carousel");
+const element = document.querySelector(".carousel-custom");
 // Create a new carousel object
-const exampleCarousel = new Carousel(el);
+const exampleCarousel = new Carousel(element);
 // Setup carousel and methods
 exampleCarousel.mounted();
 

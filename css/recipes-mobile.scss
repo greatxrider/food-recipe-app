@@ -1,0 +1,254 @@
+@media only screen and (max-width: 429px) {
+    #recipeCardContainer {
+        gap: 10px;
+    }
+
+    #recipeCard {
+        width: 165px !important;
+    }
+
+    .recipe-container {
+        width: 149px !important;
+
+        .tag {
+            width: 49px !important;
+            left: 90px !important; 
+        }
+
+        #recipeImg {
+            border-radius: 8px;
+            width: 149px !important;
+            height: 136px;
+        }
+    }
+
+    #dateActionsContainer {
+        width: 149px !important;
+
+    }
+
+    .card-body {
+        width: 149px !important;
+
+        .card-title {
+            width: 149px !important;
+        }
+
+        .card-text {
+            width: 149px !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 991px) { 
+    #topRecipesContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+
+        #recipeCardContainer {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        #recipeCard {
+            padding: 11px 8px 11px 8px;
+            border-radius: 8px;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+            border: 0px;
+            width: 189px;
+            height: 275px;
+
+            .recipe-container {
+                width: 173px;
+                position: relative;
+
+                .tag {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: 'Poppins', sans-serif;
+                    font-size: 7px;
+                    line-height: 0;
+                    letter-spacing: 0%;
+                }
+                
+                .tag {
+                    width: 49px;
+                    height: 14px;
+                    position: absolute;
+                    top: 10px;
+                    left: 113px; 
+                    color: #FFFFFF;
+                    background-color: #F1632D;
+                    border-radius: 2px; 
+                }
+
+                #recipeImg {
+                    border-radius: 8px;
+                    width: 173px;
+                    height: 136px;
+                }
+            }
+
+            #dateActionsContainer {
+                display: flex;
+                justify-content: space-between;
+                width: 173px;
+                padding: 10px 0 0 0;
+
+                #recipeDate {
+                    display: flex;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: normal;
+                    font-size: 7px;
+                    color: #253D4E;
+                    line-height: 12px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                    align-items: center;
+                    margin: 0;
+                }
+
+                #actionButtonsContainer {
+                    display: flex;
+                    gap: 4px;
+                    
+                    #chatButton, #shareButton {
+                        border: 0px;
+                        border-radius: 100%;
+                        background-color: #FFE1D6;
+                        color: #F1632D;
+                        padding: 0px;
+                        width: 15px;
+                        height: 14px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    .bi-share, .bi-chat-right {
+                        font-size: 7px;
+                    }
+
+                    .bi-share::before, .bi-chat-right::before {
+                        font-weight: 600 !important;
+                    }
+                }
+            }
+
+            .card-body {
+                width: 173px;
+                padding: 0px;
+                font-family: 'Poppins', sans-serif;
+
+                h5 {
+                    font-size: 12px;
+                    line-height: 16px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                    align-items: center;
+                    font-weight: bold;
+                }
+
+                p {
+                    font-size: 7px;
+                    line-height: 12px;
+                    letter-spacing: 0%;
+                    text-align: left;
+                    align-items: center;
+                    font-weight: 400;
+                    color: #666666;
+                    margin: 0;
+                }
+
+                a {
+                    font-size: 7px;
+                    line-height: 12px;
+                    letter-spacing: 0%;
+                    text-align: center;
+                    align-items: center;
+                    font-weight: 400;
+                    margin: 0;
+                    text-decoration: none;
+                    color: #F1632D;
+                }
+
+            }
+        }
+
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 32px;
+            letter-spacing: 0%;
+            text-align: left;
+            align-items: center;
+            margin: 0;
+        }
+    }
+
+    // Pagination
+    #paginationContainer {
+        display: flex;
+        justify-content: center;
+        margin-top: 34px;
+
+        #pagination {
+            width: 137.09px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            gap: 24px;
+
+            #arrowLeft, #arrowRight {
+                border: 0px;
+                background-color: #f6f6f6;
+                padding: 0;
+            }
+
+            #arrowLeft {
+                color: #CCCCCC;
+            }
+
+            #arrowRight {
+                color: #F1632D;
+            }
+
+            .bi-chevron-left, .bi-chevron-right {
+                font-size: 22px;
+            }
+
+            .bi-chevron-left::before, .bi-chevron-right::before {
+                font-weight: 600 !important;
+            }
+
+            #paginationInfo {
+                font-family: 'Poppins', sans-serif;
+                display: flex;
+                align-items: center;
+                gap: 4px;
+
+                #startingIndex {
+                    font-weight: bold;
+                    font-size: 12px;
+                    line-height: 16px;
+                    letter-spacing: 0%;
+                    color: #F1632D;
+                    border: 2px solid #F1632D;
+                    border-radius: 8px 8px 8px 8px;
+                    padding: 3px;
+                }
+    
+                #endPageNumber, #of {
+                    font-size: 12px;
+                    line-height: 16px;
+                }
+            }
+        }
+    }
+}

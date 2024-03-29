@@ -2,6 +2,11 @@
     body {
         overflow-x: hidden; 
     }
+
+    .navbar {
+        position: relative;
+        z-index: 10;
+    }
     
     #headerContent { 
         height: 315px;
@@ -10,18 +15,10 @@
 
     #mainSection {
         margin-top: 240px;
+        padding: 0 20px 0 20px;
     }
 
-    #searchInput {
-        border: 0px;
-        background-color: #FFFFFF;
-        width: 193px;
+    #topRecipes {
+        margin-top: 55px;
     }
-
-    #searchFormContainer {
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
-        background-color: #FFFFFF;
-        border-radius: 2px;
-    }
-
 }

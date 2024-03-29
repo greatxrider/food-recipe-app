@@ -92,22 +92,113 @@ body {
   body {
     overflow-x: hidden;
   }
+  .navbar {
+    position: relative;
+    z-index: 10;
+  }
   #headerContent {
     height: 315px;
     position: relative;
   }
   #mainSection {
     margin-top: 240px;
+    padding: 0 20px 0 20px;
   }
-  #searchInput {
-    border: 0px;
-    background-color: #FFFFFF;
-    width: 193px;
+  #topRecipes {
+    margin-top: 55px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #searchBar {
+    display: flex;
+    justify-content: center;
   }
   #searchFormContainer {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     background-color: #FFFFFF;
     border-radius: 2px;
+    width: 374px;
+    height: 42px;
+  }
+  #searchInput {
+    border: 0px;
+    background-color: #FFFFFF;
+    width: 165px;
+    height: 21px;
+    margin-right: 0px !important;
+    outline: 0px;
+    align-self: center;
+    border-left: 0.1px solid #ADADAD;
+    border-radius: 0;
+    padding: 0 0 0 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+  }
+  #searchInput:focus {
+    box-shadow: 0 0 0 0.1rem #87B740;
+  }
+  #searchInput::placeholder {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #ADADAD;
+    line-height: auto;
+    letter-spacing: 0%;
+    margin: 0;
+  }
+  .select {
+    display: flex;
+    justify-content: center;
+    width: 136px;
+    padding: 0;
+  }
+  #categories {
+    border: 0;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    color: #253D4E;
+    line-height: 16px;
+    letter-spacing: 0%;
+    margin: 0;
+    width: 136px;
+    height: 42px;
+  }
+  .form-select:focus {
+    box-shadow: 0 0 0 0.1rem #87B740;
+  }
+  .dropdown-toggle::after {
+    display: none;
+  }
+  .bi-chevron-down::before {
+    font-weight: bold !important;
+    color: #253D4E;
+  }
+  .btn-outline-success {
+    align-items: center;
+    height: 42px;
+    width: 57px;
+    border-radius: 0 2px 2px 0;
+    background-color: #87B740;
+    margin-left: 16px;
+    border: 0px;
+    padding: 0;
+  }
+  .bi-search {
+    color: white;
+    font-size: 24px;
+  }
+  .bi-search::before {
+    font-weight: 500 !important;
+  }
+  .me-2 {
+    margin-right: 0px;
   }
 }
 /* page styles */
@@ -394,6 +485,221 @@ body {
   }
   .foodTitle-custom-item-1 {
     align-self: center;
+  }
+}
+@media only screen and (max-width: 429px) {
+  #recipeCardContainer {
+    gap: 10px;
+  }
+  #recipeCard {
+    width: 165px !important;
+  }
+  .recipe-container {
+    width: 149px !important;
+  }
+  .recipe-container .tag {
+    width: 49px !important;
+    left: 90px !important;
+  }
+  .recipe-container #recipeImg {
+    border-radius: 8px;
+    width: 149px !important;
+    height: 136px;
+  }
+  #dateActionsContainer {
+    width: 149px !important;
+  }
+  .card-body {
+    width: 149px !important;
+  }
+  .card-body .card-title {
+    width: 149px !important;
+  }
+  .card-body .card-text {
+    width: 149px !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #topRecipesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  #topRecipesContainer #recipeCardContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  #topRecipesContainer #recipeCard {
+    padding: 11px 8px 11px 8px;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 0px;
+    width: 189px;
+    height: 275px;
+  }
+  #topRecipesContainer #recipeCard .recipe-container {
+    width: 173px;
+    position: relative;
+  }
+  #topRecipesContainer #recipeCard .recipe-container .tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 7px;
+    line-height: 0;
+    letter-spacing: 0%;
+  }
+  #topRecipesContainer #recipeCard .recipe-container .tag {
+    width: 49px;
+    height: 14px;
+    position: absolute;
+    top: 10px;
+    left: 113px;
+    color: #FFFFFF;
+    background-color: #F1632D;
+    border-radius: 2px;
+  }
+  #topRecipesContainer #recipeCard .recipe-container #recipeImg {
+    border-radius: 8px;
+    width: 173px;
+    height: 136px;
+  }
+  #topRecipesContainer #recipeCard #dateActionsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 173px;
+    padding: 10px 0 0 0;
+  }
+  #topRecipesContainer #recipeCard #dateActionsContainer #recipeDate {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 7px;
+    color: #253D4E;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: left;
+    align-items: center;
+    margin: 0;
+  }
+  #topRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer {
+    display: flex;
+    gap: 4px;
+  }
+  #topRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer #chatButton, #topRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer #shareButton {
+    border: 0px;
+    border-radius: 100%;
+    background-color: #FFE1D6;
+    color: #F1632D;
+    padding: 0px;
+    width: 15px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #topRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer .bi-share, #topRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer .bi-chat-right {
+    font-size: 7px;
+  }
+  #topRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer .bi-share::before, #topRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer .bi-chat-right::before {
+    font-weight: 600 !important;
+  }
+  #topRecipesContainer #recipeCard .card-body {
+    width: 173px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+  }
+  #topRecipesContainer #recipeCard .card-body h5 {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    align-items: center;
+    font-weight: bold;
+  }
+  #topRecipesContainer #recipeCard .card-body p {
+    font-size: 7px;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: left;
+    align-items: center;
+    font-weight: 400;
+    color: #666666;
+    margin: 0;
+  }
+  #topRecipesContainer #recipeCard .card-body a {
+    font-size: 7px;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+    margin: 0;
+    text-decoration: none;
+    color: #F1632D;
+  }
+  #topRecipesContainer h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    align-items: center;
+    margin: 0;
+  }
+  #paginationContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 34px;
+  }
+  #paginationContainer #pagination {
+    width: 137.09px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+  }
+  #paginationContainer #pagination #arrowLeft, #paginationContainer #pagination #arrowRight {
+    border: 0px;
+    background-color: #f6f6f6;
+    padding: 0;
+  }
+  #paginationContainer #pagination #arrowLeft {
+    color: #CCCCCC;
+  }
+  #paginationContainer #pagination #arrowRight {
+    color: #F1632D;
+  }
+  #paginationContainer #pagination .bi-chevron-left, #paginationContainer #pagination .bi-chevron-right {
+    font-size: 22px;
+  }
+  #paginationContainer #pagination .bi-chevron-left::before, #paginationContainer #pagination .bi-chevron-right::before {
+    font-weight: 600 !important;
+  }
+  #paginationContainer #pagination #paginationInfo {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  #paginationContainer #pagination #paginationInfo #startingIndex {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: #F1632D;
+    border: 2px solid #F1632D;
+    border-radius: 8px 8px 8px 8px;
+    padding: 3px;
+  }
+  #paginationContainer #pagination #paginationInfo #endPageNumber, #paginationContainer #pagination #paginationInfo #of {
+    font-size: 12px;
+    line-height: 16px;
   }
 }
 

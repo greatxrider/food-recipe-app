@@ -13,6 +13,7 @@
         rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css" />
     <!-- fontawesome CSS -->
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css">
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css">
@@ -64,19 +65,24 @@
         <!-- search bar -->
         <section id="searchBar">
             <div id="searchFormContainer">
-                <form class="d-flex" role="search">
-                    <div class="nav-item dropdown d-flex align-items-center">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            All Categories
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                <form class="d-flex" role="search" id="searchForm">
+                    <div class="select d-flex align-items-center">
+                        <select class="form-select" aria-label="Default select example" id="categories">
+                            <option selected>All Categories</option>
+                            <option value="1">Sides</option>
+                            <option value="2">Appetizers</option>
+                            <option value="3">Desserts</option>
+                            <option value="4">Salads</option>
+                            <option value="5">Beverages</option>
+                            <option value="6">Breakfast</option>
+                            <option value="7">Breads</option>
+                            <option value="8">Meats</option>
+                            <option value="9">Vegetables</option>
+                            <option value="10">Fruits</option>
+                            <option value="11">Snacks</option>
+                        </select>
                     </div>
-                    <input class="form-control me-2" id="searchInput" type="search" placeholder="Search"
+                    <input class="form-control me-2" id="searchInput" type="search" placeholder="Search for recipes..."
                         aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">
                         <i class="bi bi-search"></i>
@@ -86,7 +92,21 @@
         </section>
         <!-- top recipes section -->
         <section id="topRecipes">
-
+            <div id="topRecipesContainer">
+                <h1>Top Recipes</h1>
+                <!-- Recipes -->
+            </div>
+            <div id="paginationContainer">
+                <div id="pagination">
+                    <button id="arrowLeft" type="button"><i class="bi bi-chevron-left"></i></button>
+                    <div id="paginationInfo">
+                        <span id="startingIndex">0</span>
+                        <span id="of">of</span>
+                        <span id="endPageNumber">0</span>
+                    </div>
+                    <button id="arrowRight" type="button"><i class="bi bi-chevron-right"></i></button>
+                </div>
+            </div>
         </section>
         <!-- our latest recipes section -->
         <section id="ourLatestRecipes">
@@ -109,7 +129,6 @@
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <!-- custom js -->
     <script src="js/app.js" type="module"></script>
-    <script defer src="./js/carousel.js"></script>
 </body>
 
 </html>
