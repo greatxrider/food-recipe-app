@@ -1,24 +1,28 @@
-@media only screen and (max-width: 991px) { 
+@media only screen and (max-width: 991px) {
     body {
-        overflow-x: hidden; 
+        overflow-x: hidden;
     }
 
     .navbar {
         position: relative;
         z-index: 10;
     }
-    
-    #headerContent { 
+
+    #headerContent {
         height: 315px;
         position: relative;
     }
 
     #mainSection {
         margin-top: 240px;
-        padding: 0 20px 0 20px;
+        padding: 0px;
     }
 
     #topRecipes {
+        margin-top: 55px;
+    }
+
+    #ourLatestRecipes {
         margin-top: 55px;
     }
 }

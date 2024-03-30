@@ -1,0 +1,124 @@
+@media only screen and (max-width: 991px) {
+
+    #ctaSection {
+        margin-top: 107px;
+    }
+
+    #ctaContent {
+        background-color: #F1632D;
+        width: 100%;
+        height: 145px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        position: relative;
+        gap: 10px;
+    }
+
+    #ctaHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 145px;
+        align-self: center;
+    }
+
+    #ctaHeading {
+        font-family: "Poppins", sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 21.5px;
+        text-align: center;
+        align-items: center;
+        margin: 0;
+        color: #FFFFFF;
+    }
+
+    #ctaDescription {
+        font-family: "Poppins", sans-serif;
+        font-size: 7px;
+        line-height: 24px;
+        text-align: center;
+        align-items: center;
+        color: #FFFFFF;
+        margin: 0;
+    }
+
+    // Email form
+
+    #emailFormContainer {
+        display: flex;
+        width: 105px;
+        height: 20px;
+        background-color: #FFFFFF;
+        border-radius: 2px;
+    }
+
+    #emailInput {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 89px;
+        height: 20px;
+        border: 0;
+        border-radius: 2px;
+        padding: 0px;
+        padding-left: 7px;
+        font-size: 6px;
+        text-align: left;
+        align-items: center;
+    }
+
+    #emailInput:focus {
+        box-shadow: 0 0 0 .1rem #87B740;
+    }
+
+    #emailInput::placeholder {
+        font-size: 6px;
+        text-align: left;
+        align-items: center;
+    }
+
+    // Subscribe Button
+    #subscribeButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 13px;
+        height: 13px;
+        border: 0px;
+        border-radius: 2px;
+        right: 10px;
+        background-color: #F1632D;
+        margin: 0;
+        align-self: center;
+    }
+
+    .bi-arrow-right-short {
+        font-size: 5px;
+        color: #FFFFFF;
+
+    }
+
+    // Image
+
+    #ctaImageContainer {
+        display: flex;
+        justify-content: center;
+        padding: 8px;
+        width: 160px;
+        height: 240px;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+    }
+
+    #ctaImage {
+        height: 224px;
+        width: 150px;
+        background-color: #E2E2E2;
+        border-radius: 8px;
+    }
+
+}

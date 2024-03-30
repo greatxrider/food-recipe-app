@@ -13,7 +13,8 @@
 }
 
 #logo,
-#navbarContent, #headerContent {
+#navbarContent,
+#headerContent {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -102,9 +103,12 @@ body {
   }
   #mainSection {
     margin-top: 240px;
-    padding: 0 20px 0 20px;
+    padding: 0px;
   }
   #topRecipes {
+    margin-top: 55px;
+  }
+  #ourLatestRecipes {
     margin-top: 55px;
   }
 }
@@ -112,6 +116,7 @@ body {
   #searchBar {
     display: flex;
     justify-content: center;
+    padding: 0px 20px 0 20px;
   }
   #searchFormContainer {
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
@@ -518,12 +523,20 @@ body {
   .card-body .card-text {
     width: 149px !important;
   }
+  #seeMoreButton {
+    width: 66px;
+    height: 21px;
+    background-color: #87B740;
+    border-radius: 4px;
+    border: 0;
+  }
 }
 @media only screen and (max-width: 991px) {
   #topRecipesContainer {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    padding: 0px 20px 0 20px;
     gap: 20px;
   }
   #topRecipesContainer #recipeCardContainer {
@@ -590,7 +603,8 @@ body {
     display: flex;
     gap: 4px;
   }
-  #topRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer #chatButton, #topRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer #shareButton {
+  #topRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer #chatButton,
+  #topRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer #shareButton {
     border: 0px;
     border-radius: 100%;
     background-color: #FFE1D6;
@@ -602,10 +616,12 @@ body {
     justify-content: center;
     align-items: center;
   }
-  #topRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer .bi-share, #topRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer .bi-chat-right {
+  #topRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer .bi-share,
+  #topRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer .bi-chat-right {
     font-size: 7px;
   }
-  #topRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer .bi-share::before, #topRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer .bi-chat-right::before {
+  #topRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer .bi-share::before,
+  #topRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer .bi-chat-right::before {
     font-weight: 600 !important;
   }
   #topRecipesContainer #recipeCard .card-body {
@@ -652,10 +668,15 @@ body {
     align-items: center;
     margin: 0;
   }
+  .spinner-border {
+    border: 0.25em solid #87B740;
+    border-right-color: #FFFFFF;
+  }
   #paginationContainer {
     display: flex;
     justify-content: center;
     margin-top: 34px;
+    padding: 0px 20px 0 20px;
   }
   #paginationContainer #pagination {
     width: 137.09px;
@@ -664,7 +685,8 @@ body {
     justify-content: center;
     gap: 24px;
   }
-  #paginationContainer #pagination #arrowLeft, #paginationContainer #pagination #arrowRight {
+  #paginationContainer #pagination #arrowLeft,
+  #paginationContainer #pagination #arrowRight {
     border: 0px;
     background-color: #f6f6f6;
     padding: 0;
@@ -675,10 +697,12 @@ body {
   #paginationContainer #pagination #arrowRight {
     color: #F1632D;
   }
-  #paginationContainer #pagination .bi-chevron-left, #paginationContainer #pagination .bi-chevron-right {
+  #paginationContainer #pagination .bi-chevron-left,
+  #paginationContainer #pagination .bi-chevron-right {
     font-size: 22px;
   }
-  #paginationContainer #pagination .bi-chevron-left::before, #paginationContainer #pagination .bi-chevron-right::before {
+  #paginationContainer #pagination .bi-chevron-left::before,
+  #paginationContainer #pagination .bi-chevron-right::before {
     font-weight: 600 !important;
   }
   #paginationContainer #pagination #paginationInfo {
@@ -697,9 +721,479 @@ body {
     border-radius: 8px 8px 8px 8px;
     padding: 3px;
   }
-  #paginationContainer #pagination #paginationInfo #endPageNumber, #paginationContainer #pagination #paginationInfo #of {
+  #paginationContainer #pagination #paginationInfo #endPageNumber,
+  #paginationContainer #pagination #paginationInfo #of {
     font-size: 12px;
     line-height: 16px;
+  }
+  #ourLatestRecipes {
+    padding: 0px 20px 0 20px;
+  }
+  #ourLatestRecipes #latestRecipesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  #ourLatestRecipes #latestRecipesContainer #latestRecipeHeading {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+    align-items: center;
+    margin: 0;
+  }
+  #ourLatestRecipes #latestRecipesContainer .spinner-border {
+    border: 0.25em solid #87B740;
+    border-right-color: #FFFFFF;
+  }
+  #ourLatestRecipes #latestRecipesContainer #recipeCardContainerLatest {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  #ourLatestRecipes #latestRecipesContainer #recipeCard {
+    padding: 11px 8px 11px 8px;
+    border-radius: 8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 0px;
+    width: 189px;
+    height: 275px;
+  }
+  #ourLatestRecipes #latestRecipesContainer #recipeCard .recipe-container {
+    width: 173px;
+    position: relative;
+  }
+  #ourLatestRecipes #latestRecipesContainer #recipeCard .recipe-container .tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 7px;
+    line-height: 0;
+    letter-spacing: 0%;
+  }
+  #ourLatestRecipes #latestRecipesContainer #recipeCard .recipe-container .tag {
+    width: 49px;
+    height: 14px;
+    position: absolute;
+    top: 10px;
+    left: 113px;
+    color: #FFFFFF;
+    background-color: #F1632D;
+    border-radius: 2px;
+  }
+  #ourLatestRecipes #latestRecipesContainer #recipeCard .recipe-container #recipeImg {
+    border-radius: 8px;
+    width: 173px;
+    height: 136px;
+  }
+  #ourLatestRecipes #latestRecipesContainer #recipeCard #dateActionsContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 173px;
+    padding: 10px 0 0 0;
+  }
+  #ourLatestRecipes #latestRecipesContainer #recipeCard #dateActionsContainer #recipeDate {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-size: 7px;
+    color: #253D4E;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: left;
+    align-items: center;
+    margin: 0;
+  }
+  #ourLatestRecipes #latestRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer {
+    display: flex;
+    gap: 4px;
+  }
+  #ourLatestRecipes #latestRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer #chatButton,
+  #ourLatestRecipes #latestRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer #shareButton {
+    border: 0px;
+    border-radius: 100%;
+    background-color: #FFE1D6;
+    color: #F1632D;
+    padding: 0px;
+    width: 15px;
+    height: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #ourLatestRecipes #latestRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer .bi-share,
+  #ourLatestRecipes #latestRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer .bi-chat-right {
+    font-size: 7px;
+  }
+  #ourLatestRecipes #latestRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer .bi-share::before,
+  #ourLatestRecipes #latestRecipesContainer #recipeCard #dateActionsContainer #actionButtonsContainer .bi-chat-right::before {
+    font-weight: 600 !important;
+  }
+  #ourLatestRecipes #latestRecipesContainer #recipeCard .card-body {
+    width: 173px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+  }
+  #ourLatestRecipes #latestRecipesContainer #recipeCard .card-body h5 {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    align-items: center;
+    font-weight: bold;
+  }
+  #ourLatestRecipes #latestRecipesContainer #recipeCard .card-body p {
+    font-size: 7px;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: left;
+    align-items: center;
+    font-weight: 400;
+    color: #666666;
+    margin: 0;
+  }
+  #ourLatestRecipes #latestRecipesContainer #recipeCard .card-body a {
+    font-size: 7px;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: center;
+    align-items: center;
+    font-weight: 400;
+    margin: 0;
+    text-decoration: none;
+    color: #F1632D;
+  }
+  #seeMoreButton {
+    width: 66px;
+    height: 21px;
+    background-color: #87B740;
+    border-radius: 4px;
+    border: 0;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 7px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 34px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #gallery {
+    margin-top: 60px;
+  }
+  #galleryContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px 20px 0px;
+    background-color: #87b740;
+    height: 336px;
+    width: 100%;
+    opacity: 85%;
+    position: relative;
+    overflow-x: hidden;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+  #galleryInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 360px;
+    height: 64px;
+  }
+  #galleryHeading {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    line-height: 64px;
+    color: #ffffff;
+    margin: 0;
+  }
+  #galleryDescription {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    text-align: left;
+    align-items: center;
+    line-height: 12px;
+    width: 189px;
+    height: 48px;
+    color: #ffffff;
+    margin: 0;
+    align-self: center;
+  }
+  /* gallery Carousel */
+  /* Import Google font - Poppins */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  .wrapper {
+    display: flex;
+    max-width: 1200px;
+    position: relative;
+  }
+  .wrapper i {
+    top: 50%;
+    height: 44px;
+    width: 44px;
+    color: #343f4f;
+    cursor: pointer;
+    font-size: 1.15rem;
+    position: absolute;
+    text-align: center;
+    line-height: 44px;
+    background: #fff;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+    z-index: 10;
+  }
+  .wrapper i:active {
+    transform: translateY(-50%) scale(0.9);
+  }
+  .wrapper i:hover {
+    background: #f2f2f2;
+  }
+  .wrapper i:first-child {
+    left: 0px;
+    display: none;
+  }
+  .wrapper i:last-child {
+    right: 0px;
+  }
+  .wrapper .carousel {
+    display: flex;
+    font-size: 0px;
+    cursor: pointer;
+    overflow: hidden;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+  }
+  .carousel.dragging {
+    cursor: grab;
+    scroll-behavior: auto;
+  }
+  .carousel.dragging img {
+    pointer-events: none;
+  }
+  .carousel img {
+    object-fit: cover;
+    user-select: none;
+    margin-left: 8px;
+    width: 33.3333333333%;
+    height: 120px;
+    border-radius: 8px;
+    align-self: flex-end;
+  }
+  .carousel img:focus,
+  .carousel img:hover,
+  .carousel img.active {
+    width: 200px;
+    height: 200px;
+    transition: height 0.8s ease;
+  }
+  .carousel img:first-child {
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  #ctaSection {
+    margin-top: 107px;
+  }
+  #ctaContent {
+    background-color: #F1632D;
+    width: 100%;
+    height: 145px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 10px;
+  }
+  #ctaHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 145px;
+    align-self: center;
+  }
+  #ctaHeading {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 21.5px;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    color: #FFFFFF;
+  }
+  #ctaDescription {
+    font-family: "Poppins", sans-serif;
+    font-size: 7px;
+    line-height: 24px;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  #emailFormContainer {
+    display: flex;
+    width: 105px;
+    height: 20px;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+  }
+  #emailInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 89px;
+    height: 20px;
+    border: 0;
+    border-radius: 2px;
+    padding: 0px;
+    padding-left: 7px;
+    font-size: 6px;
+    text-align: left;
+    align-items: center;
+  }
+  #emailInput:focus {
+    box-shadow: 0 0 0 0.1rem #87B740;
+  }
+  #emailInput::placeholder {
+    font-size: 6px;
+    text-align: left;
+    align-items: center;
+  }
+  #subscribeButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13px;
+    height: 13px;
+    border: 0px;
+    border-radius: 2px;
+    right: 10px;
+    background-color: #F1632D;
+    margin: 0;
+    align-self: center;
+  }
+  .bi-arrow-right-short {
+    font-size: 5px;
+    color: #FFFFFF;
+  }
+  #ctaImageContainer {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    width: 160px;
+    height: 240px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+  }
+  #ctaImage {
+    height: 224px;
+    width: 150px;
+    background-color: #E2E2E2;
+    border-radius: 8px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  footer {
+    margin-top: 108px;
+  }
+  #footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #87B740;
+    height: 160px;
+  }
+  #footerContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+    margin-bottom: 30px;
+    gap: 120px;
+  }
+  #footerLogo {
+    margin-top: 12px;
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: left;
+    align-self: flex-start;
+    color: white;
+    margin: 0;
+  }
+  #footerNav {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 12px;
+    width: 118px;
+    height: 64px;
+    list-style-type: none;
+    margin: 0;
+  }
+  #footerNav li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10.91px;
+  }
+  #footerNav li a {
+    font-family: "Poppins", sans-serif;
+    font-size: 8px;
+    font-weight: normal;
+    line-height: 16px;
+    text-align: left;
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  #footerDivider {
+    display: block;
+    margin: 0;
+    width: 100%;
+    border-top: 1px solid white;
+    opacity: 100;
+  }
+  #footerInfo {
+    display: flex;
+    margin-top: 15px;
+    gap: 13rem;
+    align-items: center;
+  }
+  #footerInfo p {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  #footerInfo #socialIcons {
+    align-self: center;
+  }
+  #footerInfo #socialIcons a {
+    color: #FFFFFF;
+    font-size: 12px;
   }
 }
 

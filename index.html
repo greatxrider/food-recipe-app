@@ -93,9 +93,9 @@
         <!-- top recipes section -->
         <section id="topRecipes">
             <div id="topRecipesContainer" class="justify-content-center">
-                <h1>Top Recipes</h1>
-                <!-- Recipes -->
-                <div id='spinner' class="spinner-border align-self-center" style="width: 3rem; height: 3rem;"
+                <h1 id="TopRecipeHeading">Top Recipes</h1>
+                <!-- Top Recipes -->
+                <div id='spinnerTop' class="spinner-border align-self-center" style="width: 3rem; height: 3rem;"
                     role="status">
                     <span class="visually-hidden">Loading...</span>
                 </div>
@@ -113,21 +113,80 @@
             </div>
         </section>
         <!-- our latest recipes section -->
-        <section id="ourLatestRecipes">
-
+        <section id="ourLatestRecipes" class="d-flex justify-content-center flex-column align-items-center">
+            <div id="latestRecipesContainer" class="justify-content-center">
+                <h1 id="latestRecipeHeading">Our Latest Recipes</h1>
+                <!-- Latest Recipes -->
+                <div id='spinnerLatest' class="spinner-border align-self-center" style="width: 3rem; height: 3rem;"
+                    role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+            <div id="seeMore">
+                <button type="button" id="seeMoreButton">See More</button>
+            </div>
         </section>
         <!-- gallery section -->
         <section id="gallery">
-
+            <div id="galleryContainer">
+                <div id="galleryInfo">
+                    <h1 id="galleryHeading">Gallery</h1>
+                    <p id="galleryDescription">Leverage agile frameworks to provide a robust synopsis for high level
+                        overviews. Iterative approaches to corporate strategy foster collaborative thinking.</p>
+                </div>
+                <div id="galleryCarousel" class="wrapper">
+                    <i id="left" class="fa-solid fa-angle-left"></i>
+                    <div class="carousel" id="galleryImagesContainer">
+                        <!-- Images -->
+                    </div>
+                    <i id="right" class="fa-solid fa-angle-right"></i>
+                </div>
+            </div>
         </section>
         <!-- cta section -->
-        <section id="callToAction">
-
+        <section id="ctaSection">
+            <div id="ctaContent">
+                <div id="ctaHeader">
+                    <h1 id="ctaHeading">Never Miss Our New Recipes</h1>
+                    <p id="ctaDescription">Subscribe to our newsletter for exclusive recipes each week</p>
+                    <div id="emailFormContainer">
+                        <input class="form-control" id="emailInput" type="email" placeholder="Enter email here"
+                            aria-label="Email" required>
+                        <button class="btn btn-outline-success" id="subscribeButton">
+                            <i class="bi bi-arrow-right-short"></i>
+                        </button>
+                    </div>
+                </div>
+                <div id="ctaImageContainer">
+                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        alt="CTA Image" draggable="false" id="ctaImage">
+                </div>
+            </div>
         </section>
     </main>
     <!-- footer -->
-    <footer>
-
+    <footer class="container p-0">
+        <div id="footerContainer">
+            <div id="footerContent">
+                <h1 id="footerLogo">Foodee.</h1>
+                <ul id="footerNav">
+                    <li><a id="homeAnchor" href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#recipes">Recipes</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#features">Features</a></li>
+                </ul>
+            </div>
+            <hr id="footerDivider">
+            <div id="footerInfo">
+                <p>&copy; <span id="copyright">MrOctopus</span></p>
+                <div id="socialIcons">
+                    <a href="https://www.linkedin.com/in/jephmari/"><i class="bi bi-apple"></i></a>
+                    <a href="https://www.linkedin.com/in/jephmari/"><i class="bi bi-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/jephmari/"><i class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
     <!-- bootstrap js -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>

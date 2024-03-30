@@ -1,35 +1,13 @@
+const apiKey = process.env.SPOONACULAR_API_KEY;
+const RecipesUrl = `https://api.spoonacular.com/food/search?query=&number=10&apiKey=${apiKey}`;
+let recipeDataArray = [];
+
 class Carousel {
     constructor(element) {
         this.element = element;
         this.carouselOptions = ['previous', 'next'];
-        this.carouselData = [
-            {
-                'id': '1',
-                'src': 'https://randommer.io/images/foods/Caprese%20Salad.webp',
-                'title': 'Italiano Strawberry Smoothies Pancake',
-            },
-            {
-                'id': '2',
-                'src': 'https://randommer.io/images/foods/Huevos%20Rancheros.webp',
-                'title': 'Steak Beef With Padang Sauce',
-            },
-            {
-                'id': '3',
-                'src': 'https://randommer.io/images/foods/Chicken%20Tenders.webp',
-                'title': 'Jollibee With Tinola Sauce',
-            },
-            {
-                'id': '4',
-                'src': 'https://randommer.io/images/foods/Bento%20Box.webp',
-                'title': 'Inasal With Tinola Sauce',
-            },
-            {
-                'id': '5',
-                'src': 'https://randommer.io/images/foods/Veggie%20Sandwich.webp',
-                'title': 'McDo With Tinola Sauce',
-            }
-        ];
-        this.carouselInView = [1, 2, 3, 4, 5];
+        this.carouselData = recipeDataArray;
+        this.carouselInView = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
         this.carouselContainer;
         this.carouselPlayState;
     }
@@ -40,6 +18,7 @@ class Carousel {
 
     // Build carousel html
     setupCarousel() {
+        console.log(recipeDataArray);
         const container = document.createElement('div');
         const controls = document.createElement('div');
 
@@ -47,33 +26,29 @@ class Carousel {
         this.element.append(container, controls);
         container.className = 'carousel-custom-container';
         controls.className = 'carousel-custom-controls container';
-
+        console.log(recipeDataArray);
         // Take dataset array and append items to container
         this.carouselData.forEach((item, index) => {
-            const carouselItem = item.src ? document.createElement('div') : null;
+            const carouselItem = item.image ? document.createElement('div') : null;
             const imgItem = document.createElement('img');
-            const foodTitle = item.title ? document.createElement('h4') : null;
+            const foodTitle = item.name ? document.createElement('h4') : null;
             carouselItem.append(imgItem, foodTitle);
             container.append(carouselItem);
 
             // Add item attributes
-            // imgDiv.className = `imgDiv`;
             foodTitle.className = `foodTitle-item foodTitle-custom-item-${index + 1}`
-            foodTitle.textContent = item.title;
+            foodTitle.textContent = item.name;
             foodTitle.setAttribute('loading', 'lazy');
 
             imgItem.className = `imageItem imageItem-custom-item-${index + 1}`;
-            imgItem.src = item.src;
+            imgItem.src = item.image;
 
             carouselItem.className = `carousel-custom-item carousel-custom-item-${index + 1}`;
-            // carouselItem.style.backgroundImage = `url(${item.src})`;
-            // carouselItem.style.backgroundSize = 'cover';
-            // carouselItem.style.backgroundPosition = 'center';
             carouselItem.setAttribute('loading', 'lazy');
             // Used to keep track of carousel items, infinite items possible in carousel however min 5 items required
             carouselItem.setAttribute('data-index', `${index + 1}`);
             foodTitle.setAttribute('data-index', `${index + 1}`);
-        });
+        })
 
         this.carouselOptions.forEach((option) => {
             const btn = document.createElement('button');
@@ -128,11 +103,6 @@ class Carousel {
         this.carouselInView.forEach((item, index) => {
             this.carouselContainer.children[index].className = `carousel-custom-item carousel-custom-item-${item}`;
         });
-
-        // // Using the first 5 items in data array update content of carousel items in view
-        // this.carouselData.slice(0, 5).forEach((data, index) => {
-        //     document.querySelector(`.carousel-custom-item-${index + 1}`).src = data.src;
-        // });
     }
 
     next() {
@@ -146,62 +116,26 @@ class Carousel {
         this.carouselInView.forEach((item, index) => {
             this.carouselContainer.children[index].className = `carousel-custom-item carousel-custom-item-${item}`;
         });
-
-        // Using the first 5 items in data array update content of carousel items in view
-        // this.carouselData.slice(0, 5).forEach((data, index) => {
-        //     document.querySelector(`.carousel-custom-item-${index + 1}`).style.backgroundImage = `url(${data.src})`;
-        // });
     }
-
-    add() {
-        const newItem = {
-            'id': '',
-            'src': '',
-        };
-        const lastItem = this.carouselData.length;
-        const lastIndex = this.carouselData.findIndex(item => item.id == lastItem);
-
-        // Assign properties for new carousel item
-        Object.assign(newItem, {
-            id: `${lastItem + 1}`,
-            src: `http://fakeimg.pl/300/?text=${lastItem + 1}`
-        });
-
-        // Then add it to the "last" item in our carouselData
-        this.carouselData.splice(lastIndex + 1, 0, newItem);
-
-        // Shift carousel to display new item
-        this.next();
-    }
-
-    play() {
-        const playBtn = document.querySelector('.carousel-custom-control-play');
-        const startPlaying = () => this.next();
-
-        if (playBtn.classList.contains('playing')) {
-            // Remove class to return to play button state/appearance
-            playBtn.classList.remove('playing');
-
-            // Remove setInterval
-            clearInterval(this.carouselPlayState);
-            this.carouselPlayState = null;
-        } else {
-            // Add class to change to pause button state/appearance
-            playBtn.classList.add('playing');
-
-            // First run initial next method
-            this.next();
-
-            // Use play state prop to store interval ID and run next method on a 1.5 second interval
-            this.carouselPlayState = setInterval(startPlaying, 1500);
-        };
-    }
-
 }
 
+async function fetchFoodData(url) {
+    try {
+        const response = await fetch(url);
+        const data = await response.json();
+        const dataSearchResults = data.searchResults[0]
+        recipeDataArray = dataSearchResults.results;
+        const element = document.querySelector('.carousel-custom');
+        const exampleCarousel = new Carousel(element);
+        exampleCarousel.mounted();
+    } catch (error) {
+        console.error(error);
+    }
+}
+
+fetchFoodData(RecipesUrl);
 // Refers to the carousel root element you want to target, use specific class selectors if using multiple carousels
-const element = document.querySelector('.carousel-custom');
+
 // Create a new carousel object
-const exampleCarousel = new Carousel(element);
+
 // Setup carousel and methods
-exampleCarousel.mounted();

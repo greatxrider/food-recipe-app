@@ -1,0 +1,104 @@
+@media only screen and (max-width: 991px) {
+    footer {
+        margin-top: 108px;
+    }
+
+    #footerContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #87B740;
+        height: 160px;
+    }
+
+    #footerContent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 12px;
+        margin-bottom: 30px;
+        gap: 120px;
+    }
+
+    #footerLogo {
+        margin-top: 12px;
+        font-family: "Poppins", sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 32px;
+        text-align: left;
+        align-self: flex-start;
+        color: white;
+        margin: 0;
+    }
+
+    #footerNav {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 12px;
+        width: 118px;
+        height: 64px;
+        list-style-type: none;
+        margin: 0;
+
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10.91px;
+
+            #homeAnchor {}
+
+            a {
+                font-family: "Poppins", sans-serif;
+                font-size: 8px;
+                font-weight: normal;
+                line-height: 16px;
+                text-align: left;
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+        }
+
+    }
+
+    #footerDivider {
+        display: block;
+        margin: 0;
+        width: 100%;
+        border-top: 1px solid white;
+        opacity: 100;
+    }
+
+    #footerInfo {
+        display: flex;
+        margin-top: 15px;
+        gap: 13rem;
+        align-items: center;
+
+        p {
+            font-family: "Poppins", sans-serif;
+            font-size: 12px;
+            color: #FFFFFF;
+            margin: 0;
+        }
+
+        #socialIcons {
+            align-self: center;
+
+            a {
+                color: #FFFFFF;
+                font-size: 12px;
+            }
+        }
+
+
+    }
+
+
+
+}

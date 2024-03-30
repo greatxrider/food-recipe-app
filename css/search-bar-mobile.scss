@@ -1,7 +1,8 @@
-@media only screen and (max-width: 991px) { 
+@media only screen and (max-width: 991px) {
     #searchBar {
         display: flex;
         justify-content: center;
+        padding: 0px 20px 0 20px;
     }
 
     #searchFormContainer {

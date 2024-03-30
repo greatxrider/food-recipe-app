@@ -15,7 +15,8 @@
 }
 
 #logo,
-#navbarContent, #headerContent {
+#navbarContent,
+#headerContent {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -61,7 +62,7 @@ body {
 #headerContent {
     padding: 0px;
     background-color: #E2E2E2;
-    
+
     #bannerContainer {
         padding: 33px 47px 0 47px;
         height: 100%;
@@ -82,7 +83,7 @@ body {
             background-color: #f1632d;
             padding: 0 10px 0 10px;
         }
-    
+
         p {
             padding: 5px 15px 0 15px;
             color: #000000;
@@ -104,3 +105,6 @@ body {
 @import 'carousel';
 @import 'carousel-mobile.scss';
 @import 'recipes-mobile.scss';
+@import 'gallery-mobile.scss';
+@import 'cta-mobile.scss';
+@import 'footer-mobile.scss';
