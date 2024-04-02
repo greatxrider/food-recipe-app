@@ -209,7 +209,7 @@ function displayTopRecipe(recipes) {
         const cardText = document.createElement('p');
         cardText.className = 'card-text';
         let recipeContent = topRecipes.content;
-        cardText.textContent = `${recipeContent.slice(0, 120) + '...'}`
+        cardText.innerHTML = `${recipeContent.slice(0, 200) + '...'}`
 
         // read more
         const readMore = document.createElement('a');
@@ -317,7 +317,7 @@ function displayLatestRecipe(recipes) {
         const cardText = document.createElement('p');
         cardText.className = 'card-text';
         let recipeContent = latestRecipes.content;
-        cardText.textContent = `${recipeContent.slice(0, 126) + '...'}`
+        cardText.innerHTML = `${recipeContent.slice(0, 200) + '...'}`
 
         // read more
         const readMore = document.createElement('a');

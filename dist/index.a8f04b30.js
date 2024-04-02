@@ -589,7 +589,7 @@ var _recipes = require("./recipes");
 var _galleryCarousel = require("./galleryCarousel");
 
 },{"./carousel":"9AbnS","./recipes":"eHgtG","./galleryCarousel":"f54fD"}],"9AbnS":[function(require,module,exports) {
-const apiKey = "985657607e4f4433b35c17a295387a26asdasdasd";
+const apiKey = "985657607e4f4433b35c17a295387a26";
 const RecipesUrl = `https://api.spoonacular.com/food/search?query=&number=10&apiKey=${apiKey}`;
 let recipeDataArray = [];
 class Carousel {
@@ -737,7 +737,7 @@ const spinner = document.querySelector("#spinnerTop");
 const spinnerLatest = document.querySelector("#spinnerLatest");
 const seeMoreButton = document.querySelector("#seeMoreButton");
 //api key
-const apiKey = "985657607e4f4433b35c17a295387a26asdasdasd";
+const apiKey = "985657607e4f4433b35c17a295387a26";
 // top recipes
 let topRecipesUrl = `https://api.spoonacular.com/food/search?query=top+recipes&number=40&apiKey=${apiKey}`;
 // latest recipes
@@ -903,7 +903,7 @@ function displayTopRecipe(recipes) {
         const cardText = document.createElement("p");
         cardText.className = "card-text";
         let recipeContent = topRecipes.content;
-        cardText.textContent = `${recipeContent.slice(0, 120) + "..."}`;
+        cardText.innerHTML = `${recipeContent.slice(0, 200) + "..."}`;
         // read more
         const readMore = document.createElement("a");
         readMore.textContent = "Read More";
@@ -988,7 +988,7 @@ function displayLatestRecipe(recipes) {
         const cardText = document.createElement("p");
         cardText.className = "card-text";
         let recipeContent = latestRecipes.content;
-        cardText.textContent = `${recipeContent.slice(0, 126) + "..."}`;
+        cardText.innerHTML = `${recipeContent.slice(0, 200) + "..."}`;
         // read more
         const readMore = document.createElement("a");
         readMore.textContent = "Read More";

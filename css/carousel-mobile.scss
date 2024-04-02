@@ -30,7 +30,8 @@
   .carousel-custom {
     position: absolute;
     top: 70%;
-    z-index: 1; /* Ensure the carousel is on top of other content */
+    z-index: 1;
+    /* Ensure the carousel is on top of other content */
   }
 
   .imageItem {
@@ -41,10 +42,10 @@
   .carousel-custom-item-1 {
     left: 0%;
     opacity: 0.4;
-    
   }
 
-  .carousel-custom-item-1,  .carousel-custom-item-5 {
+  .carousel-custom-item-1,
+  .carousel-custom-item-5 {
     height: 250px;
     width: 200px;
     top: 10.5%;
@@ -70,8 +71,7 @@
     left: 50%;
     width: 200px;
     z-index: 2;
-    align-content: flex-start;
-    flex-wrap: wrap;
+    align-items: center;
   }
 
   .carousel-custom-item-4 {

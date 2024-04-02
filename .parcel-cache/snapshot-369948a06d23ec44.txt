@@ -1,6 +1,6 @@
-11202
+11224
 140C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\lmdb\dependencies\lz4\lib\dll\example\Makefile133560034930464127 0
-85C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\.env133562918827764692 0
+85C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\.env133562921526121685 0
 124C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap\js\dist\offcanvas.js133560034936186788 0
 139C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@swc\helpers\_\_write_only_error\package.json133560034940561411 0
 124C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\web-streams-polyfill\README.md133561766928800223 0
@@ -76,7 +76,7 @@
 141C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\transformer-json\lib\JSONTransformer.js133560034926518999 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.f5d6606f.js133560764969249821 0
 114C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\node-fetch\src\utils133561766927323188 1
-85C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist133562918881170228 1
+85C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist133562956852889760 1
 141C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@swc\helpers\_\_class_private_field_destructure133560034938975740 1
 130C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap-icons\icons\chat-heart.svg133561178499981042 0
 152C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\solid\ticket-simple.svg133561181558902599 0
@@ -130,7 +130,7 @@
 125C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\caniuse-lite\data\regions\OM.js133560034943106654 0
 156C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\posthtml\node_modules\posthtml-parser\dist\location-tracker.js133560034927471044 0
 126C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\nth-check\lib\esm\parse.d.ts.map133560034930364032 0
-91C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\index.html133562918587518089 0
+91C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\index.html133562956464425177 0
 144C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\node-domexception\.history\index_20210527213022.js133561766927323188 0
 113C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\stable\package.json133560034925537151 0
 121C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\type-fest\source\basic.d.ts133560034928616295 0
@@ -243,7 +243,7 @@
 129C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\css-tree\cjs\syntax\node\String.cjs133560034936676861 0
 126C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\postcss-value-parser\lib\walk.js133560034928276320 0
 190C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\optimizer-htmlnano\node_modules\csso\lib\restructure\prepare\createDeclarationIndexer.js133560034930699292 0
-103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.cc073436.js133562830118012499 0
+103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.cc073436.js133562956358786824 0
 143C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap-icons\icons\file-earmark-arrow-down.svg133561178504406507 0
 140C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\css\v4-shims.css133561181537336129 0
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\css-select133560034934720713 1
@@ -441,6 +441,7 @@
 146C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\brands\drupal.svg133561181547307777 0
 122C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\svgo\plugins\_collections.js133560034932135139 0
 145C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\rust\parcel-node-bindings.darwin-arm64.node133560034939768426 0
+104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.47d7e09c.css133562941815446438 0
 129C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\type-fest\source\literal-union.d.ts133560034930744437 0
 112C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\has-flag\readme.md133560034927771075 0
 131C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\utils\src\progress-message.js133560034933915476 0
@@ -472,7 +473,7 @@
 136C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\caniuse-lite\data\features\do-not-track.js133560034940120853 0
 145C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\solid\server.svg133561181556337698 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\lru-cache133560034927100394 1
-104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.748ad148.css133562918708191852 0
+104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.748ad148.css133562956359210539 0
 135C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\lmdb\node_modules\node-addon-api\index.js133560034930374053 0
 105C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\detect-libc133560034928131149 1
 111C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\parcel\src\cli.js133560034928131149 0
@@ -523,7 +524,7 @@
 166C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\lexer\prepare-tokens.js133560034936496791 0
 111C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\formdata-polyfill133561766927283200 1
 162C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\optimizer-htmlnano\node_modules\svgo\plugins\_collections.js133560034927951056 0
-108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.4add71a5.css.map133562830117226671 0
+108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.4add71a5.css.map133562956359631489 0
 125C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\caniuse-lite\data\regions\PY.js133560034943561787 0
 115C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\mdn-data\css\index.js133560034926990389 0
 139C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap-icons\icons\arrows-angle-expand.svg133561178496286088 0
@@ -851,6 +852,7 @@
 118C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\nth-check\lib\compile.js133560034926478983 0
 152C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\solid\dumpster-fire.svg133561181547337806 0
 101C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\timsort133560034928736315 1
+107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.8d335f2c.js.map133562941259841273 0
 127C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\htmlnano\docs\docs\050-modules.md133560034934105584 0
 123C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\core\lib\constants.js133560034933745473 0
 122C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap-icons\package.json133561178494989184 0
@@ -1095,7 +1097,7 @@
 136C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\web-streams-polyfill\dist\polyfill.mjs.map133561766928288411 0
 115C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\import-fresh\index.js133560034926368970 0
 139C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\csso\node_modules\css-tree\cjs\utils\List.cjs133560034934950708 0
-111C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\.firebase\hosting.ZGlzdA.cache133562773140535268 0
+111C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\.firebase\hosting.ZGlzdA.cache133562934973348384 0
 112C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\callsites\index.js133560034926814119 0
 142C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\web-streams-polyfill\dist\ponyfill.es2018.js.map133561766928368441 0
 151C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\css-select\node_modules\dom-serializer\lib\index.d.ts.map133560034929541473 0
@@ -1783,7 +1785,7 @@
 173C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\optimizer-htmlnano\node_modules\css-tree\lib\definition-syntax\index.js133560034934005567 0
 149C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\react-refresh\cjs\react-refresh-babel.production.min.js133560034927641046 0
 141C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@swc\helpers\cjs\_skip_first_generator_next.cjs133560034934870697 0
-103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.a8f04b30.js133562830115402829 0
+103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.a8f04b30.js133562956359089050 0
 127C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap-icons\icons\tv-fill.svg133561178513346162 0
 110C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\stable\stable.js133560034927191071 0
 128C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\svgo\plugins\removeStyleElement.js133560034935335912 0
@@ -2585,6 +2587,7 @@
 140C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\solid\o.svg133561181553199599 0
 119C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\csso\cjs\clean\Atrule.cjs133560034929291474 0
 133C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\caniuse-lite\data\features\dragndrop.js133560034940306775 0
+108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.e26065e2.css.map133562948308906636 0
 148C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\csso\node_modules\css-tree\cjs\syntax\node\Comment.cjs133560034930524122 0
 155C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\regular\face-grin-wink.svg133561181548245876 0
 120C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\mdn-data\css\syntaxes.json133560034931265082 0
@@ -2821,7 +2824,7 @@
 165C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\msgpackr-extract\node_modules\.bin\node-gyp-build-optional-packages.ps1133560034957517591 0
 136C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\core\lib\serializerCore.browser.js133560034937488344 0
 136C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\css-tree\lib\syntax\node\index-generate.js133560034938447830 0
-116C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\bootstrap-icons.7da1e530.woff2133562830114478626 0
+116C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\bootstrap-icons.7da1e530.woff2133562956358655905 0
 136C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\msgpackr-extract\bin\download-prebuilds.js133560034927521063 0
 133C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\json-parse-even-better-errors\README.md133560034927771075 0
 138C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\caniuse-lite\data\features\object-entries.js133560034943006638 0
@@ -3181,7 +3184,7 @@
 130C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\lightningcss\node\composeVisitors.js133560034929106345 0
 143C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\caniuse-lite\data\features\css-scroll-timeline.js133560034939072175 0
 124C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\lightningcss\node\targets.d.ts133560034930659301 0
-105C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\css\carousel-mobile.scss133561234575038764 0
+105C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\css\carousel-mobile.scss133562955399401067 0
 127C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\lightningcss\node\targets.js.flow133560034928586319 0
 147C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\solid\utensils.svg133561181560225245 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\json5\lib133560034930934405 1
@@ -4648,7 +4651,7 @@
 147C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\css-select\node_modules\domutils\lib\esm\index.js.map133560034931765062 0
 124C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\css-tree\cjs\walker\create.cjs133560034931685061 0
 136C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap-icons\icons\plus-circle-fill.svg133561178510460010 0
-102C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\js\galleryCarousel.js133562731991775344 0
+102C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\js\galleryCarousel.js133562939356662126 0
 123C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\css-tree\cjs\walker\index.cjs133560034935020773 0
 144C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\reporter-dev-server\src\templates\404.html133560034927040366 0
 122C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\css-tree\cjs\utils\clone.cjs133560034930284032 0
@@ -4895,7 +4898,7 @@
 130C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap-icons\icons\safe2-fill.svg133561178511095281 0
 144C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\css-select\node_modules\entities\lib\esm\decode.js133560034929511480 0
 148C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\css-select\node_modules\entities\lib\esm\decode.js.map133560034932300278 0
-95C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\js\carousel.js133562770289215374 0
+95C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\js\carousel.js133562951634813108 0
 156C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\css-select\node_modules\entities\lib\esm\decode_codepoint.d.ts133560034933545469 0
 138C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap-icons\icons\credit-card-2-back.svg133561178501614565 0
 131C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@popperjs\core\lib\modifiers\index.js133560034937748343 0
@@ -5187,6 +5190,7 @@
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.49e3259d.css133562647937031971 0
 121C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\cosmiconfig\dist\loaders.js133560034928206313 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.49e3259d.css.map133562647937081999 0
+103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.0fdd0791.js133562954337877098 0
 125C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\cosmiconfig\dist\loaders.js.map133560034930484116 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.92977549.js133562085898867648 0
 119C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\cosmiconfig\dist\types.js133560034928506328 0
@@ -5496,7 +5500,7 @@
 127C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\caniuse-lite\data\features\aac.js133560034926719063 0
 130C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap-icons\icons\caret-left.svg133561178499725312 0
 141C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@popperjs\core\dist\esm\utils\computeOffsets.js133560034939790824 0
-107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.cc073436.js.map133562830118112399 0
+107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.cc073436.js.map133562956358841770 0
 125C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\caniuse-lite\data\regions\SB.js133560034943801770 0
 125C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap-icons\icons\award.svg133561178496597031 0
 125C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\caniuse-lite\data\regions\SC.js133560034943811763 0
@@ -5644,7 +5648,7 @@
 119C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\optimizer-swc\lib133560034926428997 1
 139C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\caniuse-lite\data\features\css-containment.js133560034937528343 0
 128C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@swc\helpers\src\_create_super.mjs133560034940976156 0
-104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\css\recipes-mobile.scss133562916054375133 0
+104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\css\recipes-mobile.scss133562949449841220 0
 142C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\caniuse-lite\data\features\css-letter-spacing.js133560034938299778 0
 125C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap-icons\icons\slack.svg133561178512057231 0
 136C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@swc\helpers\_\_class_private_field_update133560034939121843 1
@@ -5669,6 +5673,7 @@
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.ab9329de.js.map133560037425915567 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@lezer\lr\dist133560034929381471 1
 138C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\caniuse-lite\data\features\css-gencontent.js133560034938001433 0
+108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.bf2b377f.css.map133562954337947058 0
 125C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\source-map\dist\node.js133560034929331472 0
 151C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\solid\vr-cardboard.svg133561181560747855 0
 142C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\caniuse-lite\data\features\css-grid-animation.js133560034938033241 0
@@ -5716,6 +5721,7 @@
 147C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\solid\seedling.svg133561181556317699 0
 115C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\browserslist\error.js133560034927251067 0
 139C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\caniuse-lite\data\features\css-placeholder.js133560034938854823 0
+104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.bf2b377f.css133562954337877098 0
 147C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\caniuse-lite\data\features\document-evaluate-xpath.js133560034940157885 0
 146C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\caniuse-lite\data\features\css-print-color-adjust.js133560034938882703 0
 130C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap-icons\icons\mouse-fill.svg133561178508297063 0
@@ -5939,6 +5945,7 @@
 125C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\core\lib\Environment.js133560034934960694 0
 133C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\caniuse-lite\data\features\objectrtc.js133560034943046652 0
 136C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap-icons\icons\universal-access.svg133561178513527573 0
+107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.0fdd0791.js.map133562954337947058 0
 134C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\caniuse-lite\data\features\ogg-vorbis.js133560034943076652 0
 135C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\caniuse-lite\data\features\ol-reversed.js133560034943096669 0
 136C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@popperjs\core\lib\dom-utils\contains.d.ts133560034935395914 0
@@ -7482,6 +7489,7 @@
 149C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\solid\file-lines.svg133561181548848317 0
 124C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap-icons\icons\shop.svg133561178511516235 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.f16ac0e7.css.map133562620282773976 0
+107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.734b71d7.js.map133562948308906636 0
 127C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap-icons\icons\shuffle.svg133561178511526226 0
 163C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\optimizer-svgo\node_modules\css-tree\lib\syntax\pseudo\dir.js133560034932870306 0
 133C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap-icons\icons\sign-dead-end.svg133561178511536238 0
@@ -7858,6 +7866,7 @@
 131C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap\scss\mixins\_container.scss133560034940083193 0
 130C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap\dist\css\bootstrap.rtl.css133560034932270280 0
 131C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap\scss\mixins\_deprecate.scss133560034940104859 0
+108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.fa219237.css.map133562938336661076 0
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.a27d8e02.css133562643073699084 0
 149C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\solid\chart-line.svg133561181543085606 0
 139C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@popperjs\core\lib\dom-utils\getLayoutRect.js133560034936456781 0
@@ -7867,7 +7876,7 @@
 126C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap\scss\mixins\_grid.scss133560034940291240 0
 127C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap\scss\mixins\_image.scss133560034940317464 0
 127C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@swc\helpers\cjs\_ts_decorate.cjs133560034935475905 0
-104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.ab0485ab.css133562830116739613 0
+104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.ab0485ab.css133562956359631489 0
 132C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap\scss\mixins\_reset-text.scss133560034940545573 0
 136C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap\scss\mixins\_table-variants.scss133560034940619435 0
 135C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@popperjs\core\lib\utils\uniqueBy.js.flow133560034939018540 0
@@ -7953,7 +7962,7 @@
 131C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\source-map\dist\types.js.flow133560034927050386 0
 128C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap\dist\js\bootstrap.esm.js133560034933685485 0
 132C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap\dist\js\bootstrap.esm.js.map133560034938487755 0
-104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.86dc70ca.css133562830117156445 0
+104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.86dc70ca.css133562956359210539 0
 136C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap\dist\js\bootstrap.esm.min.js.map133560034938589310 0
 141C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@swc\helpers\src\_skip_first_generator_next.mjs133560034941321398 0
 128C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\bootstrap\dist\js\bootstrap.js.map133560034938690318 0
@@ -8400,7 +8409,7 @@
 122C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\cache\src\FSCache.js133560034928091148 0
 127C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@popperjs\core\lib\popper-lite.js133560034930404138 0
 126C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@popperjs\core\lib\types.js.flow133560034931195056 0
-108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.ab0485ab.css.map133562830116788716 0
+108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.ab0485ab.css.map133562956359706795 0
 118C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@popperjs\core\lib\utils133560034939098485 1
 122C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\workers\src\types.js133560034932570285 0
 143C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\solid\wifi.svg133561181560946703 0
@@ -8677,7 +8686,7 @@
 146C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\rust\parcel-node-bindings.linux-x64-gnu.node133560034944422602 0
 143C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\utils\test\input\sourcemap\source-root.js133560034934980727 0
 147C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\utils\test\input\sourcemap\source-root.js.map133560034936606788 0
-111C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\fa-solid-900.2bef98e0.ttf133562830114678658 0
+111C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\fa-solid-900.2bef98e0.ttf133562956358881862 0
 136C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\utils\test\input\config\config.cjs133560034927151051 0
 135C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\utils\test\input\config\config.js133560034929701477 0
 136C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@parcel\utils\test\input\config\empty.toml133560034936616790 0
@@ -9765,7 +9774,7 @@
 151C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\solid\cake-candles.svg133561181542425586 0
 149C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\solid\calculator.svg133561181542435577 0
 153C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\solid\calendar-minus.svg133561181542495978 0
-108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.748ad148.css.map133562918708211856 0
+108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.748ad148.css.map133562956359254600 0
 152C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\solid\calendar-plus.svg133561181542515992 0
 152C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\solid\calendar-week.svg133561181542525973 0
 153C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\solid\calendar-xmark.svg133561181542555991 0
@@ -10823,6 +10832,7 @@
 156C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\brands\trade-federation.svg133561181559191521 0
 146C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\brands\trello.svg133561181559306375 0
 145C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\brands\typo3.svg133561181559501704 0
+108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.1d151175.css.map133562937700434941 0
 145C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\brands\uikit.svg133561181559531713 0
 147C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\brands\umbraco.svg133561181559531713 0
 149C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\@fortawesome\fontawesome-free\svgs\brands\uncharted.svg133561181559561721 0
@@ -10954,15 +10964,15 @@
 121C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\.bin\update-browserslist-db133560034957537588 0
 125C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\node_modules\.bin\update-browserslist-db.ps1133560034957537588 0
 90C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\js\app.js133562617779643772 0
-94C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\js\recipes.js133562745466231621 0
-115C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\bootstrap-icons.11149690.woff133562830114678658 0
+94C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\js\recipes.js133562950129911113 0
+115C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\bootstrap-icons.11149690.woff133562956358571422 0
 116C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\bootstrap-icons.3536be6d.woff2133562058399278070 0
 115C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\bootstrap-icons.5b9cac4e.woff133562058398799215 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.ea611dbc.css.map133561309897345823 0
-112C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\fa-brands-400.4257408a.ttf133562830114658642 0
-114C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\fa-brands-400.55a67878.woff2133562830114668621 0
+112C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\fa-brands-400.4257408a.ttf133562956358871867 0
+114C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\fa-brands-400.55a67878.woff2133562956358559422 0
 114C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\fa-brands-400.f88bf5bd.woff2133562058398779218 0
-113C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\fa-solid-900.45be5413.woff2133562830114678658 0
+113C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\fa-solid-900.45be5413.woff2133562956358564972 0
 113C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\food-recipe-app.3464ddca.js133560104758167478 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.02ac1294.js133562503299194612 0
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.044cca9b.css133561881193245350 0
@@ -10983,6 +10993,7 @@
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.1b92e05f.css133562756664416932 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.1b92e05f.css.map133562756664637608 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.1bca497d.js133561844611865575 0
+104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.1d151175.css133562937700394916 0
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.1fc61f41.css133562058405207610 0
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.20ea8430.css133562795986255552 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.20ea8430.css.map133562795986285522 0
@@ -10999,6 +11010,8 @@
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.2d70606a.css.map133562503299264917 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.2dbe4a8f.js.map133560116355111152 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.2e138afa.js133561844147901819 0
+104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.3427b755.css133562941259768221 0
+108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.3427b755.css.map133562941259841273 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.36e6aafe.js133561236235677184 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.37254f71.js.map133562761658904334 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.373cba05.js133562516966923570 0
@@ -11022,9 +11035,10 @@
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.465e9f86.js.map133561993144879719 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.47c2691a.js133562760418243827 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.47c2691a.js.map133562760418283828 0
+108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.47d7e09c.css.map133562941815476434 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.485d63e0.js133561994399263631 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.485d63e0.js.map133561994399303630 0
-104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.4add71a5.css133562830117097990 0
+104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.4add71a5.css133562956359570818 0
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.4d24dfe0.css133562511091995848 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.5025ac95.js133562794087734371 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.5025ac95.js.map133562794087784349 0
@@ -11034,9 +11048,11 @@
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.55fffd65.js.map133560919644910510 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.57f2736d.js.map133561958078729967 0
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.5a9a41b6.css133562735196712913 0
-104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.5af28429.css133562830117151669 0
-108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.5af28429.css.map133562830117242517 0
+104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.5af28429.css133562956359570818 0
+108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.5af28429.css.map133562956359631489 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.5b493651.js.map133562075384995934 0
+104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.5bed3b3f.css133562949485831572 0
+108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.5bed3b3f.css.map133562949485871573 0
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.5d22bbf7.css133562732948433609 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.5d22bbf7.css.map133562732948473609 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.5d3184e5.css.map133560139663177039 0
@@ -11058,6 +11074,8 @@
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.6ae4a125.js.map133561978829021804 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.71ca89a3.js.map133562004930409341 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.71e9ac99.js133560087095335304 0
+104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.f16ac0e7.css133562620282744007 0
+103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.734b71d7.js133562948308836688 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.74d5d940.css.map133562828825016019 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.7945b662.js.map133562101333753988 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.7e4fd2f8.js133561961152453020 0
@@ -11071,13 +11089,14 @@
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.85cea375.css.map133560112046802206 0
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.86c37e5b.css133562756664426934 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.86c37e5b.css.map133562756664637608 0
-108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.86dc70ca.css.map133562830117242517 0
+108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.86dc70ca.css.map133562956359254600 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.889e0fa3.js.map133560112046802206 0
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.89668688.css133560112046692221 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.89668688.css.map133560112046802206 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.8976d818.js133561987822600301 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.8ae48a09.js.map133560254051504008 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.8b7e309f.js133561977468897188 0
+103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.8d335f2c.js133562941259762993 0
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.8db49cb1.css133560318483076190 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.8db49cb1.css.map133560318483146199 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.8e42ef0c.css.map133562621551288306 0
@@ -11112,7 +11131,7 @@
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.a5a4b399.js.map133560767203064638 0
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.a791a1ac.css133562827550390803 0
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.a7c5881f.css133562731485577802 0
-107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.a8f04b30.js.map133562830115442807 0
+107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.a8f04b30.js.map133562956359128103 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.ab9329de.js133560037425785506 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.aca80ea8.js133562042917624298 0
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.ace3db6b.css133562824486988182 0
@@ -11124,7 +11143,7 @@
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.b06ee074.js133561885191487383 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.b06ee074.js.map133561885191517387 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.b4e3f4fa.js133561235177327247 0
-104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\css\gallery-mobile.scss133562917817152117 0
+104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\css\gallery-mobile.scss133562945396382581 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.b4e3f4fa.js.map133561235177371154 0
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.b86107ce.css133562771502093796 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.b86107ce.css.map133562771502163796 0
@@ -11138,8 +11157,8 @@
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.c59d1ce2.js133562522473661132 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.c59d1ce2.js.map133562522473731164 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.c5a3e412.js.map133560058699411142 0
-104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.c7c1b2f3.css133562830118225132 0
-108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.c7c1b2f3.css.map133562830118254479 0
+104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.c7c1b2f3.css133562956359210539 0
+108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.c7c1b2f3.css.map133562956359257286 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.c96f288e.js133562768601736912 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.ca86cf67.js.map133562030817261524 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.cb0c9c9d.css.map133562115619448210 0
@@ -11152,6 +11171,8 @@
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.d29b21fe.css133560058699331155 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.d29b21fe.css.map133560058699411142 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.d3691d43.css.map133562644332728765 0
+104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.d3e601c7.css133562942191702797 0
+108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.d3e601c7.css.map133562942191742802 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.d3e61722.js133561841963546883 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.d3e61722.js.map133561841963581979 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.d525316e.js.map133562104320961442 0
@@ -11175,6 +11196,7 @@
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.def1ba35.js133562039558426833 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.def1ba35.js.map133562039558472174 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.e0208b21.js.map133562109500894048 0
+104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.e26065e2.css133562948308836688 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.e30d5823.js.map133562035747428955 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.ebc66c40.js133561309897280711 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.ec5f62b9.css.map133562113858677835 0
@@ -11183,7 +11205,6 @@
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.ef42e287.js133562511092005840 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.f100a708.js133561976013895609 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.f100a708.js.map133561976013945607 0
-104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.f16ac0e7.css133562620282744007 0
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.f44b2838.css133562509481111741 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.f44b2838.css.map133562509481181718 0
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.f4e0f478.js.map133562044132434586 0
@@ -11194,10 +11215,11 @@
 107C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.f6423cd5.js.map133561916178886290 0
 108C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.f71edefb.css.map133561870785881653 0
 104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.f88fc6e1.css133562507424855264 0
-96C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.html133562918881120230 0
-98C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\css\carousel.scss133561105635410100 0
+104C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.fa219237.css133562938336631018 0
+96C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\dist\index.html133562956852879740 0
+98C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\css\carousel.scss133562954538913163 0
 103C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\css\footer-mobile.scss133562910816987631 0
-95C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\css\styles.css133562918563871345 0
-99C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\css\styles.css.map133562918563865954 0
+95C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\css\styles.css133562955399907375 0
+99C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\css\styles.css.map133562955399897363 0
 96C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\css\styles.scss133562861348171833 0
 100C:\Users\JephMari\Desktop\NucampFolder\WebDev\Portfolio Projects\food-recipe-app\.vscode\launch.json133560257932263967 0
