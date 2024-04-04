@@ -589,7 +589,7 @@ var _recipes = require("./recipes");
 var _galleryCarousel = require("./galleryCarousel");
 
 },{"./carousel":"9AbnS","./recipes":"eHgtG","./galleryCarousel":"f54fD"}],"9AbnS":[function(require,module,exports) {
-const apiKey = "985657607e4f4433b35c17a295387a26";
+const apiKey = "985657607e4f4433b35c17a295387a26asdasdasdasd";
 const RecipesUrl = `https://api.spoonacular.com/food/search?query=&number=10&apiKey=${apiKey}`;
 let recipeDataArray = [];
 class Carousel {
@@ -737,7 +737,7 @@ const spinner = document.querySelector("#spinnerTop");
 const spinnerLatest = document.querySelector("#spinnerLatest");
 const seeMoreButton = document.querySelector("#seeMoreButton");
 //api key
-const apiKey = "985657607e4f4433b35c17a295387a26";
+const apiKey = "985657607e4f4433b35c17a295387a26asdasdasdasd";
 // top recipes
 let topRecipesUrl = `https://api.spoonacular.com/food/search?query=top+recipes&number=40&apiKey=${apiKey}`;
 // latest recipes
